@@ -1,0 +1,20 @@
+# Root directory for your dataset
+path: dataset/Fruit_Vege_Recognition  # or the appropriate path to your dataset root directory
+
+train: /Users/jordanshyu/PycharmProjects/Image Recognition Train/dataset/Fruit_Vege_Recognition/train/images
+val: /Users/jordanshyu/PycharmProjects/Image Recognition Train/dataset/Fruit_Vege_Recognition/valid/images
+test: /Users/jordanshyu/PycharmProjects/Image Recognition Train/dataset/Fruit_Vege_Recognition/test/images
+
+# Number of classes in your dataset
+nc: 13
+
+# Class names
+names: ['capsicum', 'carrot', 'cucumber', 'green pepper', 'kale', 'onion', 'potato', 'red capsicum', 'redpepper', 'spinach', 'spring onions', 'sweet potato', 'tomato']
+
+# Optional Roboflow metadata (this is not directly used by YOLO during training)
+roboflow:
+  workspace: freshfood
+  project: fruit_vege_recognition
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/freshfood/fruit_vege_recognition/dataset/1
